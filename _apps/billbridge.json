@@ -19,15 +19,15 @@
     "<strong>Photos:</strong> only the picture you pick as your company logo.",
     "<strong>Fingerprint / face unlock:</strong> to unlock the app on your phone. Biometric data stays on your device and is never sent to us."
   ],
-  "retention": "We keep your data while your account is active. Saved invoices and ledger entries are never edited or deleted inside the app, because accounting and tax rules require a complete record; mistakes are fixed by returns or corrections.",
-  "delete_steps_html": "<p>The app does not yet have a delete button. To delete your account or data, email us:</p>\n<ol>\n<li>Send an email to <strong>info@lmsoftwaresolutions.com</strong> from the address registered on your account, with the subject <em>Delete my Bill Bridge India account</em>.</li>\n<li>Include your name, company name and phone number so we can find the account.</li>\n<li>We will confirm your identity and complete the deletion within 30 days, then reply to confirm.</li>\n</ol>\n<div class=\"warning\"><strong>Company accounts:</strong> if you are the company owner, deletion removes the whole company's data for all its users. If you are a staff user, only your own user login is removed, and your company keeps the records you created.</div>",
+  "retention": "We keep your data while your account is active. Saved invoices and ledger entries are never edited or deleted one by one inside the app, because accounting and tax rules require a complete record; mistakes are fixed by returns or corrections. When an admin deletes the business, all its data is removed from the app for every user straight away. Permanent erasure is described on the account deletion page.",
+  "delete_steps_html": "<h2>Option 1: delete your business in the app (admins)</h2>\n<ol>\n<li>Sign in as an <strong>admin</strong> of the business. Only admins see this option.</li>\n<li>Open <strong>More</strong>, then <strong>Business settings</strong>.</li>\n<li>Scroll to the bottom and tap <strong>Delete this business</strong>.</li>\n<li>Type the business name to confirm, then tap <strong>Delete for ever</strong>.</li>\n</ol>\n<div class=\"warning\"><strong>Warning:</strong> all bills, parties, items and money records of the business are removed from the app <strong>for everyone</strong> who uses it. You cannot undo this in the app.</div>\n\n<h2>Option 2: ask us to erase everything permanently</h2>\n<p>Deleting a business in the app removes it from view. To have the data permanently erased from our servers, or to delete your own login (name, email address, phone number), email us:</p>\n<ol>\n<li>Send an email to <strong>info@lmsoftwaresolutions.com</strong> from the address registered on your account, with the subject <em>Delete my Bill Bridge India data</em>.</li>\n<li>Include your name, business name and phone number so we can find the account.</li>\n<li>We will confirm your identity, erase the data and reply within 30 days.</li>\n</ol>\n<p>If you are staff and not an admin, ask your business admin to delete the business, or email us to remove only your own login. Your business keeps the records you created.</p>",
   "deleted": [
-    "Your user login, name, email address and phone number.",
-    "Your sign-in sessions and device unlock settings.",
-    "For a full company deletion: parties, items, stock, invoices, payments, ledgers, company details and logo."
+    "Business data: parties, items, stock, bills, payments, ledgers, company details and logo (removed from the app when an admin deletes the business; permanently erased on request).",
+    "Your user login, name, email address and phone number (on request by email).",
+    "Your sign-in sessions and device unlock settings."
   ],
   "kept": [
-    "Invoices and ledger entries that the company must retain under Indian GST and income-tax rules, until the legally required period ends. Where a staff user's login is deleted, entries they created stay in the company's records without personal contact details.",
+    "Invoices and ledger entries that must be retained under Indian GST and income-tax rules, until the legally required period ends. If a staff login is deleted, entries they created stay in the business's records without personal contact details.",
     "Backups are overwritten on their normal schedule, within 35 days."
   ]
 }
