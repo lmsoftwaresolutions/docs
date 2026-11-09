@@ -1,11 +1,12 @@
 {
   "app_name": "Bill Bridge India",
-  "effective_date": "21 October 2026",
+  "effective_date": "9 November 2026",
   "overview": "Bill Bridge India is a billing, stock and ledger app for businesses. This policy explains what the app collects, why, and the choices you have. The app works with an account on your company's Bill Bridge India software; the business that owns the account controls its business records.",
   "collect": [
     "Account details: name, email address and phone number you or your company administrator enter.",
     "Business records you create: parties (customers and suppliers), items and stock, invoices, payments, ledgers and company details such as GSTIN and address.",
     "Company logo, only if you choose to upload one.",
+    "Item photos, only if you choose to add them.",
     "Basic technical data needed to run the service, such as sign-in sessions and server logs."
   ],
   "use": [
@@ -13,10 +14,11 @@
     "To create, store and share invoices and reports.",
     "To keep the service secure and fix faults."
   ],
-  "sharing": "Your data is stored on servers run by LM Software Solutions. It is shown only to users of your own company account, according to their role. It is shared outside only if you share an invoice yourself, or if the law requires it. The app does not include advertising or third-party analytics SDKs.",
+  "sharing": "Your data is stored on servers run by LM Software Solutions. It is shown only to users of your own company account, according to their role. It is shared outside only if you share an invoice yourself, or if the law requires it. When you send a bill or statement by WhatsApp or e-mail from the app, it passes through WhatsApp (Meta) or our e-mail provider to reach the person you send it to. The app does not include advertising or third-party analytics SDKs.",
   "permissions": [
-    "<strong>Camera:</strong> to scan item barcodes. Images are not stored or uploaded.",
-    "<strong>Photos:</strong> only the picture you pick as your company logo.",
+    "<strong>Camera:</strong> to scan item barcodes, and to take item photos if you choose. Item photos are uploaded and kept with the item. Barcode scans are not stored.",
+    "<strong>Photos:</strong> only the pictures you pick for your company logo or your items.",
+    "<strong>Bluetooth:</strong> to send bills to a receipt printer you have paired. The app does not use your location.",
     "<strong>Fingerprint / face unlock:</strong> to unlock the app on your phone. Biometric data stays on your device and is never sent to us."
   ],
   "retention": "We keep your data while your account is active. Saved invoices and ledger entries are never edited or deleted one by one inside the app, because accounting and tax rules require a complete record; mistakes are fixed by returns or corrections. When an admin deletes the business, all its data is removed from the app for every user straight away. Permanent erasure is described on the account deletion page.",
